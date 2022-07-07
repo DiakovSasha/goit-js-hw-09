@@ -29,9 +29,9 @@ img {
   transition: transform 0.2s;
   cursor: pointer;
 }
-.button:hover {
+.btn:hover {
   transform: scale(0.9);
 }
-.button:not(:last-child) {
+.btn:not(:last-child) {
   margin-right: 20px;
 }
