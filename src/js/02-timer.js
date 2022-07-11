@@ -11,9 +11,15 @@ const hoursE = document.querySelector('[data-hours]');
 const minutesE = document.querySelector('[data-minutes]');
 const secondsE = document.querySelector('[data-seconds]');
 
+
+
 let currentDate = null;
 
+
+
 btnStart.disabled = true;
+
+
 
 const options = {
   enableTime: true,
