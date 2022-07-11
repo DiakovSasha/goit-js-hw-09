@@ -11,15 +11,9 @@ const hoursE = document.querySelector('[data-hours]');
 const minutesE = document.querySelector('[data-minutes]');
 const secondsE = document.querySelector('[data-seconds]');
 
-
-
 let currentDate = null;
 
-
-
 btnStart.disabled = true;
-
-
 
 const options = {
   enableTime: true,
@@ -47,7 +41,7 @@ function addLeadingZero(value) {
 }
 
 function onBtnStart() {
-  intId = setInterval(() => {
+  const intId = setInterval(() => {
     const timer = currentDate - Date.now();
     inputE.disabled = true;
     btnStart.disabled = true;
